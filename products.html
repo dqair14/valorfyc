@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | E-Commerce Website</title>
+    <link rel="stylesheet" href="products.css">
+</head>
+<body>
+    <header>
+        <h1>Our Products and Services</h1>
+    </header>
+
+    <div class="products-container">
+        <!-- Physical Course -->
+        <div class="product">
+            <img src="physical.jpg" alt="Physical Course" class="product-img">
+            <h3>Physical Course</h3>
+            <p>Price: JMD $10,000</p>
+            <input type="checkbox" name="product" value="10000" data-name="Physical Course"> Add to Cart
+        </div>
+
+        <!-- Finance Course -->
+        <div class="product">
+            <img src="finance.jpg" alt="Finance Course" class="product-img">
+            <h3>Finance Course</h3>
+            <p>Price: JMD $15,000</p>
+            <input type="checkbox" name="product" value="15000" data-name="Finance Course"> Add to Cart
+        </div>
+
+        <!-- Full Package Plan -->
+        <div class="product">
+            <img src="full-package.jpg" alt="Full Package Plan" class="product-img">
+            <h3>Full Package Plan</h3>
+            <p>Price: JMD $30,000</p>
+            <input type="checkbox" name="product" value="30000" data-name="Full Package Plan"> Add to Cart
+        </div>
+    </div>
+
+    <div class="buttons">
+        <button id="checkout">CheckOut</button>
+        <button id="cancel">Cancel</button>
+        <button id="exit">Exit</button>
+    </div>
+
+    <script src="products.js"></script>
+</body>
+</html>
